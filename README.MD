@@ -14,8 +14,8 @@ openssl
 
 # encrypting a file into jpeg comments
 
-`bash
+``
 KEY=`bash password.sh`
 ./encrypt.sh $KEY test.txt > test.enc
 jhead -ci test.enc <your file>
-`
+``
